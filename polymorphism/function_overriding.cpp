@@ -24,8 +24,8 @@ public:
 int main(){
 drived d;
   d.display();
-  
-  d.base::display();
+
+  d.base::display();//
 
   return 0;
 

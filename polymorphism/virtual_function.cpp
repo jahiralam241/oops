@@ -17,7 +17,7 @@ class derived:public base{
 };
 int main(){
     base *p=new derived();
-    p->fun();//this will class  the funtion of derived class ......so that will work now base on the object not based on the pointer
+    p->fun();//this will class  the funtion of derived class ......so that will work now base on the object not based on the pointerc
     return 0;
 
 }
