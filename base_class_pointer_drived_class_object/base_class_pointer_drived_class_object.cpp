@@ -20,11 +20,12 @@ public:
 
 };
 int main(){
-    derived d;
-    base *ptr=&d;
+derived d;
+ base *ptr=&d;
 
     ptr->fun1();
     //ptr->fun2();//can not call the funtion of derived class though the object is of derived class 
+
 
     return 0;
 
